@@ -22,10 +22,9 @@ services:
         - ./.env 
       working_dir: /srv
       extra_hosts:
-        - "local.itranswarp.com:${LOCAL_HOST}"
-        - "source.local.itranswarp.com:${LOCAL_HOST}"
-        - "static.local.itranswarp.com:${LOCAL_HOST}"
-        - "www.local.itranswarp.com:${LOCAL_HOST}"
+        - "source.xingquan.wang:${LOCAL_HOST}"
+        - "static.xingquan.wang:${LOCAL_HOST}"
+        - "xingquan.wang:${LOCAL_HOST}"
       networks:
         - dev
   java:
@@ -44,10 +43,9 @@ services:
         - ./.env 
       working_dir: /srv
       extra_hosts:
-        - "local.itranswarp.com:${LOCAL_HOST}"
-        - "source.local.itranswarp.com:${LOCAL_HOST}"
-        - "static.local.itranswarp.com:${LOCAL_HOST}"
-        - "www.local.itranswarp.com:${LOCAL_HOST}"
+        - "source.xingquan.wang:${LOCAL_HOST}"
+        - "static.xingquan.wang:${LOCAL_HOST}"
+        - "xingquan.wang:${LOCAL_HOST}"
       networks:
         - dev
   redis:

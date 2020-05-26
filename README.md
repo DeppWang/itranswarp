@@ -95,5 +95,5 @@ $ vim .env
 $ docker-compose up -d
 ```
 test:
-https://www.local.itranswarp.com/
+https://xingquan.wang/
 
